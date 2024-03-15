@@ -1,0 +1,47 @@
+.navigationBar {
+    background-color: #746a2f;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.navbar-inverse {
+    margin: 40px;
+    background: rgba(33, 62, 91, 0.2);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.container {
+    float: right;
+}
+
+.banner {
+    float: left;
+}
+
+.banner a {
+    transition: color 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    color: aquamarine;
+}
+
+.menu ul {
+    float: right !important;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

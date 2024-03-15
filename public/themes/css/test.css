@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-banner {
+    text-align: center;
+    padding: 20px;
+    height: 130px;
+    background-color: green;
+}
+
+.logo,
+.logo img {
+    height: 100%;
+}
+
+.header {
+    background-color: #3333336b;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-solid {
+    background-color: #333;
+}
+
+.topnav {
+    list-style: none;
+    padding-right: 3rem;
+    margin: 0;
+    display: flex;
+}
+
+.topnav li {
+    position: relative;
+}
+
+.submenu.right {
+    margin-left: auto;
+}
+
+.topnav li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.topnav li a:hover {
+    color: #ff0;
+}
+
+.topnav li:hover>ul {
+    display: block;
+    padding: 0;
+}
+
+.topnav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #333;
+    min-width: 150px;
+}
+
+.topnav ul li {
+    display: block;
+    list-style: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+.content {
+    margin-top: 8rem;
+    padding: 20px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    background-color: limegreen;
+    color: #373030;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    max-width: 20rem;
+    flex: 1;
+    margin-right: auto;
+}
+
+.footer-left .contact-info {
+    background-color: #373737;
+    color: #B9B3B2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-right {
+    text-align: right;
+    margin-left: auto;
+}
+
+.social-links .social-icon {
+    color: #373030;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links .social-icon:hover {
+    color: #821C1C;
+}
+
+.scroll-to-top {
+    background-color: #fff;
+    color: #000000;
+    border: 5px solid #249529b1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #249529b1;
+    color: #fff;
+    border-color: #ffffff;
+
+}
+
+.scroll-to-top:focus {
+    outline: none;
+}
