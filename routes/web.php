@@ -35,10 +35,11 @@ Route::view('/equipo', 'teamProfile');
 
 Route::view('/test2', 'test');
 
-Route::view('/',                'home')->name('home');
+Route::get('/', function () {
+    return redirect( route('home'));
+});
+Route::view('/home',                'home')->name('home');
 Route::view('/servicios',           'service');
-Route::view('/servicios/locales',   'locals');
-Route::view('/servicios/productos', 'products');
 Route::view('/conocenos',           'knowUs');
 Route::view('/contacto',            'contact');
 Route::view('/user',                'user');
