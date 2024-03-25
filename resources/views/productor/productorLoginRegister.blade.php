@@ -3,7 +3,7 @@
 @section('content')
 
 <head>
-    <link rel="stylesheet" href="http://pWeb2324.test/themes/css/entry.css">
+    <link rel="stylesheet" href="http://pWeb2324.test/themes/css/loginRegister.css">
 </head>
 
 
@@ -11,13 +11,13 @@
 <button class="tablink" onclick="openPage('register' , this, 'whitesmoke')" >Registrarse</button>
 
   <div id="login" class="tabcontent">
-    @include('loginConsumer')
+    @include('loginProductor')
   </div>
   <div id="register" class="tabcontent">
-    @include('registerConsumer')
+    @include('registerProductor')
   </div>
 
 
-<script src="http://pWeb2324.test/js/fullPageTab.js"></script>
+<script src="http://pWeb2324.test/js/loginRegisterTab.js"></script>
 
 @endsection

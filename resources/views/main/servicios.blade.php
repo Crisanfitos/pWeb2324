@@ -2,7 +2,7 @@
 
 @section('content')
     <head>
-        <link rel="stylesheet" href="http://pWeb2324.test/themes/css/services.css">
+        <link rel="stylesheet" href="http://pWeb2324.test/themes/css/servicios.css">
         <title>Servicios</title>
     </head>
     <hr>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://pWeb2324.test/themes/css/test.css">
+    <link rel="stylesheet" href="http://pWeb2324.test/themes/css/generalTemplate.css">
 </head>
 
 <body>
@@ -18,24 +18,39 @@
 
         <ul class="topnav">
             <li><a href="/">Inicio</a></li>
-            <li class="submenu">
-                <a href="/servicios">Servicios</a>
-                <ul>
-                    <li><a href="/servicios/locales">Locales</a></li>
-                    <li><a href="/servicios/productos">Productos</a></li>
-                </ul>
-            </li>
-            <li><a href="/conocenos">Conócenos</a></li>
+            <li><a href="/servicios">Servicios</a></li>
+            <li><a href="/sobreNosotros">Conócenos</a></li>
             <li><a href="/contacto">Contacto</a></li>
-
-            <li class="submenu right">
-                <a href="">Usuario</a>
+            <li class="submenu">
+                <a href="">Consumidores</a>
                 <ul>
-                    <li><a href="/user/consumer">Consumidor</a></li>
-                    <li><a href="/user/local">Local</a></li>
-                    <li><a href="/user/productor">Productor</a></li>
+                    <li><a href="/consumidor/loginRegister">Login and Register</a></li>
+                    <li><a href="/consumidor/perfil">Perfil</a></li>
+                    <li><a href="/consumidor/entregas">Entregas</a></li>
+                    <li><a href="/consumidor/afluencia">Afluencia</a></li>
                 </ul>
             </li>
+            <li>
+                <a href="">Puestos</a>
+                <ul>
+                    <li><a href="/puesto/loginRegister">Login and Register</a></li>
+                    <li><a href="/puesto/perfil">Perfil</a></li>
+                    <li><a href="/puesto/catalogo">Catalogo</a></li>
+                    <li><a href="/puesto/realizarPedido">Realizar Pedidos</a></li>
+                    <li><a href="/puesto/entregas">Entregas</a></li>
+                    <li><a href="/puesto/temp">Temperatura del Puesto</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Productores</a>
+                <ul>
+                    <li><a href="/productor/loginRegister">Login and Register</a></li>
+                    <li><a href="/productor/perfil">Perfil</a></li>
+                    <li><a href="/productor/catalogo">Catalogo</a></li>
+                    <li><a href="/productor/pedidos">Pedidos</a></li>
+                </ul>
+            </li>
+
         </ul>
     </div>
 
@@ -63,7 +78,7 @@
             </div>
         </div>
     </footer>
-    <script src="http://pWeb2324.test/js/test.js"></script>
+    <script src="http://pWeb2324.test/js/generalTemplate.js"></script>
 </body>
 
 </html>
